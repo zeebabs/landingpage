@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+    <style>
+        body{ margin: 0;
+            color: white;
+            font-style: normal;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+    #ads { background-color: #1DA1F2;
+     width:565px;
+    margin: 0%;
+    height: 520px;
+    background-image: url( images/twitterpng.png); background-position-x: 300px; background-size: 700px; object-fit: contain;
+    background-repeat: no-repeat;
+    padding-left: 110px;
+    padding-top:120px;
+    padding-bottom: 0px;
+    
+    }
+    
+nav{
+    clear:left;
+    position: absolute; top: 15%; left: 800px; 
+    color: black;
+}
+         #explore{line-height: .4px; }
+         #bookmark{ line-height: .4px;  }
+         #personalize{ line-height: .4px; }
+         #login{ position: absolute; top:5%; left: 750px; border-color: #AAB8C2;}
+h3{
+    font-size: 20px;
+}
+#username{
+height: 30px;
+position: absolute; top:
+
+}
+small{font-size: 15px;}
+
+#ul{color: black;}
+
+h4#login{position:absolute;
+    top:340px;
+    left:40px;
+    width: 100px;
+    color: #1DA1F2;
+    background-color: white;
+    border: 2px  solid #1DA1F2;
+    padding: 10px 135px 10px 135px;
+    border-radius: 50px;
+    box-shadow: 60px solid #1DA1F2;
+    text-align: center;
+}
+h4#login:hover{
+    background-color: #1DA1F2;
+    color: white;
+}
+
+h4#signup{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    width:100px;
+    color: #ffffff;
+    border: 2px solid #1DA1F2;
+    text-align: center;
+    
+    background-color: #1DA1F2;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: #ffffff 40em;
+}
+h4#signup:hover{
+    background: white;
+    color: #1DA1F2;
+    border: 2px solid #1DA1F2 ;
+}
+div#signup{
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    width: 370px;
+    height: 40px;
+    background: #1DA1F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50px;
+    opacity: 1;
+} 
+span#hap{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    width:500px;
+}
+nav h3{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    width: 500px;
+}
+.login{
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    width: 370px;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px #1DA1F2;
+    border-radius: 50px;
+    opacity: 1; 
+}
+#paswd{
+    
+    position: absolute; top:5%; left: 980px;
+    size: 30px;
+    height: 30px;
+    
+    
+}
+li{
+    display: inline;
+    color: #AAB8C2;
+    padding-right: 20px;
+    font-size: 13px;
+}
+#forget{
+    position: absolute;
+    top:58px;
+    left: 980px;
+}
+h4#loginUP{
+    color: #1DA1F2;
+    border: 3px solid #1DA1F2;
+    background-color: white;
+    width: 4em;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    box-shadow: #ffffff 40em;
+    position: absolute;
+    top:1.6%;
+    left: 1210px;
+}
+a:visited{
+    color: gray;
+}
+
+#loginUP:hover{
+    color: white;
+    background-color: #1DA1F2; 
+}
+#Tlogo{
+    position: relative;
+    left: 40px;
+    top:80px;
+}
+
+       </style>
+</head>
+<body>
+    <div id="ads">
+
+       <span> <h2>You’re one step away from the <br> shiny new Twitter.com</h2></span>
+       <h4>We’ve added tons of cool features, including …</h4>
+        <br>
+       <span id="explore"> <h3>Explore</h3><p>Get the latest Tweets, news, and videos in one place</p></span>
+        <br>
+       <span id="bookmark"> <h3>Bookmarks</h3><p>Save that interesting Tweet for later</p></span>
+       <br>
+       <span id="personalize"> <h3>Personalize</h3><p>from new themes and more dark mode options.</p></span>
+       
+
+    </div>
+    <nav>
+        <img src="images/twitterpng.png" alt="" height="40px" width="40px" id="Tlogo">
+        <span id="hap"><h1 >See what’s happening in <br> the world right now
+        </h1></span>
+        <h3>join Twitter today</h3>
+        <!-- <a href="" > <div id="signup"></div> </a> -->
+        <!-- <a href="" ><div class="login"></div> </a> -->
+        <a href="" > <h4 id="signup">Sign up</h4> </a>
+        <a href="" ><h4 id="login">Log in</h4> </a>
+</nav>
+    <div id="login">
+        <input type="text" name="phone/username" id="username" placeholder="  Phone, email or username" size="30" height="100" >  
+    </div>
+    <div id="password">
+            <input type="text" name="password" id="paswd" placeholder="  password" size="30" height="100" >  
+        </div>
+        <!-- <div class="login"></div> -->
+        <a href=""><h4 id="loginUP">Log in</h4></a>
+        <a href=""><p id="forget">forgot password?</p></a>
+    <footer>
+        <div id="footer"></div>
+        <ul>
+            <a href="" > <li> About</li> </a>
+            <a href="" ><li>Help center</li></a>
+            <a href="" ><li>Blog</li></a>
+            <a href="" ><li>Status</li></a>
+            <a href="" ><li>Jobs</li></a>
+            <a href="" ><li>Terms</li></a>
+            <a href="" ><li>Privacy Policy</li></a>
+            <a href="" ><li>cookies</li></a>
+            <a href="" ><li>Ads Info</li></a>
+            <a href="" ><li>Brand</li></a>
+            <a href="" ><li>Apps</li></a>
+            <a href="" ><li>Advertise</li></a>
+            <a href="" ><li>marketing</li></a>
+            <a href="" ><li>Business</li></a>
+            <a href="" ><li>Developer</li></a>
+            <a href="" ><li>Directory</li></a>
+            <a href="" ><li>Settings</li></a>
+            <a href="" ><li> 2019 Twitter</li></a>
+        </ul>
+    </footer>
+</body>
+</html>
